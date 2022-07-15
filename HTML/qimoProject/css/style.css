@@ -1,0 +1,297 @@
+*{
+	margin:0; 
+	padding:0; 
+	list-style: none;
+}
+
+body{
+	font-family:"微软雅黑";
+}
+
+
+
+a:link,a:visited{
+	color:#fff; 
+	text-decoration:none;
+}
+
+a:hover{
+	color:white;
+}
+
+
+
+.head{
+	color:rgba(137, 120, 120, 0.473);
+	color:white;
+	width:100%; 
+	margin:0 auto; 
+	height:860px;
+	padding-top:30px;
+	background: url(../images/bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+
+.head .grnc{
+	position:fixed;
+	background-color: rgba(255, 255, 255, 0.637);
+	display:block;
+	height:60px;
+	margin-top: -30px;
+	width: 100%;
+}
+
+.head .grnc p{
+	display: block;
+	padding-left: 60px;
+	padding-top: 10px;
+	font-size:25px;
+}
+
+#p1{
+	color:rgba(68, 60, 60, 0.473)
+}
+
+.head h3{
+	display:block;
+	text-align:center;
+	margin-top: 180px;
+	font-size: 40px;
+}
+
+.head audio{
+	display: block;
+	margin-top: 40px;
+}
+
+.head .face p{
+	margin-top:20px;
+	font-size:20px;
+	display:block;
+	text-align:center;
+}
+
+.head .daohan{
+	display: block;
+	padding-top: 38px;
+}
+
+.daohan .down{
+	position: relative;
+	display: inline-block;
+}
+
+.down:hover .choices{
+	display: block;
+}
+
+.butn{
+	background-color: rgba(255, 255, 255, 0);
+	color: white;
+	padding: 4px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+}
+
+.choices{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 138px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.choices a{
+	color:black;
+	padding-top: 5px;
+	padding-left: 9px;
+	padding-bottom: 23px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.choices a:hover{
+	text-decoration: underline;
+}
+
+.butn:hover{
+	text-decoration: underline;
+}
+
+.head .img{
+	margin-left: 700px;
+	margin-top:190px;
+}
+
+li{
+    float:right;
+}
+
+li a{
+	font-weight: normal;
+	display:block; 
+	height:10px; 
+	width:80px; 
+	text-align:center; 
+	line-height:30px;
+}
+
+li a:hover{
+	text-decoration: underline;
+}
+
+.content{
+	height: 980px;
+	background: url(../images/597.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.content .gr{
+	padding-top: 10px;
+	margin-left: 180px;
+	width:300px;
+	height:630px;
+	background: white;
+	border-radius: 20px;
+}
+
+.content .gr .tx{
+	margin-left: 61px;
+	margin-top: 20px;
+	width:183px;
+	height:183px;
+	border-radius: 100px;
+	background: url(../images/favicon.png) no-repeat;
+}
+
+.tx h2{
+	display:block;
+	color: #4C4948;
+	padding-top: 200px;
+	padding-left: 23px;
+	font-size: 30px;
+}
+
+.tx p{
+	display:block;
+	color:#4C4948;
+	font-size:5px;
+}
+
+.tx h3{
+	margin-top: 20px;
+	height: 30px;
+	display:block;
+	padding-top:8px;
+	text-align:center;
+	padding-left:6px;
+	background: #55B2F1;
+}
+
+.content .dikuai{
+	margin-top: -150px;
+	margin-left: 180px;
+	width:300px;
+	height:145px;
+	background: white;
+	border-radius: 20px;
+}
+
+.dikuai .tp{
+	text-align: center;
+	margin-top:190px;
+	padding-top:-40px;
+}
+
+.tp p{
+	display: block;
+	padding-top: 30px;
+}
+
+.content .nr1{
+	margin-top: -825px;
+	margin-left: 530px;
+	width:300px;
+	height:400px;
+	background: white;
+	border-radius: 20px;
+}
+.content .nr1 .tp img{
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.nr1 .tp p{
+	display: block;
+	margin-top: -20px;
+	text-align: center;
+}
+
+.content .nr2{
+	margin-top: -400px;
+	padding-top: 15px;
+	margin-left: 880px;
+	width:300px;
+	height:385px;
+	background: white;
+	border-radius: 20px;
+}
+.content .nr2 .tp img{
+	width: 300px;
+	height:200px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.nr2 .tp p{
+	text-align: center;
+	display: block;
+	margin-top: -20px;
+}
+
+
+.content .nr3{
+	margin-top: 40px;
+	margin-left: 530px;
+	width:650px;
+	height:385px;
+	background: white;
+	border-radius: 20px;
+}
+
+.content .nr3 .tp img{
+	float: left;
+	width:283px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.nr3 .tp p{
+    width:200px;
+	display: block;
+	margin-top: -10px;
+	text-align: center;
+	float: right;
+	padding-right: 90px;
+}
+
+.footer{
+	height:100px;
+	background:url(../images/footbg.png) no-repeat;
+	margin:0 auto;
+	color:white;
+	text-align:center;
+	font-size:14px;
+	line-height:90px;
+	background-size: cover;
+	}
+
+.ddd{
+	position:fixed;
+	right:50px;
+	bottom:90px;
+}

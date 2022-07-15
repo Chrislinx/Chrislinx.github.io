@@ -1,0 +1,245 @@
+*{
+	margin: 0; 
+    padding: 0; 
+    list-style: none; 
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	font-family:"微软雅黑";
+	background: url(../images/article_bg.png) no-repeat center fixed;
+	background-size: cover;
+}
+
+.head{
+	margin-top: -30px;
+}
+
+a:link,a:visited{
+	color:#fff; 
+	text-decoration:none;
+}
+
+a:hover{
+	color:white;
+}
+
+
+.head .daohan{
+	display: block;
+	padding-top: 38px;
+}
+
+.daohan .down{
+	position: relative;
+	display: inline-block;
+}
+
+.down:hover .choices{
+	display: block;
+}
+
+.butn{
+	background-color: rgba(255, 255, 255, 0);
+	color: white;
+	padding: 4px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+}
+
+.choices{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 138px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.choices a{
+	color:black;
+	padding-top: 5px;
+	padding-left: 9px;
+	padding-bottom: 23px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.choices a:hover{
+	text-decoration: underline;
+}
+
+.butn:hover{
+	text-decoration: underline;
+}
+
+li{
+    float:right;
+}
+
+li a{
+	font-weight: normal;
+	display:block; 
+	height:10px; 
+	width:80px; 
+	text-align:center; 
+	line-height:30px;
+}
+
+li a:hover{
+	text-decoration: underline;
+	
+}
+
+.ret{
+	width:100%;
+	height:60px;
+	background: rgba(62, 196, 178, 0.479);
+}
+
+.ret img{
+	margin: 10px 20px 0px 20px;
+}
+
+.content_top{
+    height: 500px;
+    margin-top: 12%;
+    margin-bottom: 10%;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+.content_top h2{
+    font-size: 50px;
+}
+
+.content_top p{
+    font-size: 30px;
+}
+
+.content{
+    background: url(../images/art_content.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 980px;
+}
+
+.wenzhang{
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.one{
+    float: left;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 550px;
+    height: 330px;
+    background: rgba(136, 214, 223, 0.754);
+    color: white;
+}
+
+.one h3{
+    font-size: 30px;
+}
+
+.one p{
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+}
+
+.two{
+    float: right;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 750px;
+    height: 330px;
+    background: rgba(8, 137, 217, 0.754);
+    color: white;
+}
+
+.two h3{
+    font-size: 30px;
+}
+
+.two p{
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+}
+
+.three{
+    margin-top: 27%;
+    padding: 10px;
+    border-radius: 30px;
+    width: 1348px;
+    height: 240px;
+    background: rgba(50, 88, 215, 0.754);
+    color: white;
+}
+
+.four{
+    float: left;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 750px;
+    height: 200px;
+    background: rgba(8, 137, 217, 0.754);
+    color: white;
+}
+
+.four h3{
+    font-size: 30px;
+}
+
+.four p{
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+}
+
+.five{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 550px;
+    height: 200px;
+    background: rgba(136, 214, 223, 0.754);
+    color: white;
+}
+
+.five h3{
+    font-size: 30px;
+}
+
+.five p{
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+}
+
+.footer{
+	height:100px;
+	background:url(../images/footbg.png) no-repeat;
+	margin:0 auto;
+	color:white;
+	text-align:center;
+	font-size:14px;
+	line-height:90px;
+	background-size: cover;
+	}
+
+.ddd{
+	position:fixed;
+	right:50px;
+	bottom:90px;
+}

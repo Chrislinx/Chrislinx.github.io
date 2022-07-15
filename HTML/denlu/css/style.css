@@ -1,0 +1,80 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+	border:0;
+}
+
+body{
+    font-family: "微软雅黑"; 
+	width: 100%;
+	height: 100%;
+	background: url(../images/1.png) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.dl{
+	margin-top: 50px;
+}
+
+
+form{
+	color:white;
+	padding-top: 30px;
+	width: 400px;
+	height: 450px;
+	border: 1px solid black;
+	background:rgba(0,0,0,0.5);
+	margin: 0 auto;
+	border-radius: 5px;
+	box-shadow: 0 0 15px 13px rgba(0, 0, 0, 0.346);
+}
+
+form div{
+	width: 200px;
+	height: 200px;
+    background: url(../images/2.jpg);
+    margin: 0 auto;
+    border-radius:100px;
+	border: 3px solid rgba(164, 161, 181, 0.5);
+}
+
+#one{
+	border: 1px solid #A4A1B5;
+	width: 225px;
+	padding-left: 30px;
+	margin-left: 70px;
+	height: 35px;
+	margin-top: 30px;
+	background:rgba(104, 101, 137, 0.583);
+	border-radius: 3px;
+}
+
+#two{
+	border: 1px solid #A4A1B5;
+	width: 225px;
+	padding-left: 30px;
+	margin-left: 70px;
+	margin-top: 20px;
+	height: 35px;
+	background:rgba(104, 101, 137, 0.583);
+	border-radius: 3px;
+}
+
+#three{
+	border: 1px solid #A4A1B5;
+	width:100px;
+	height: 35px;
+	background:rgb(47, 174, 216);
+	color:white;
+	margin-left: 150px;
+	margin-top: 23px;
+	border-radius: 5px;
+}
+
+
+::placeholder{
+
+	color:white;
+}
+

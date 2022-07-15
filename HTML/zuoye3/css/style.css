@@ -1,0 +1,147 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+.header{
+weight:980px;
+height:60px;
+margin:0 auto;
+padding-top:10px;
+}
+
+.header .logo{
+width:700px;
+margin:0 auto;
+}
+
+.header .dlzc{
+height:50px;
+text-align:right;
+padding-top:10px;
+color:#ff9c00;
+}
+
+.header .shou{
+height:50px;
+background-color:#ff9c00;
+margin:0 auto;
+text-align:center;
+padding-top:25px;
+color:#8f523f;
+}
+.header span{
+margin-left:70px;
+}
+
+
+.datu{
+background:url(../images/banner.jpg) no-repeat;
+margin-top:71px;
+height:240px;
+padding-top:494px;
+}
+
+.datu .zhonglei{
+margin:0 auto;
+background-color:#e7bf80;
+height:240px;
+text-align:center;
+padding-right:71px;
+}
+
+
+#t1{
+background:url(../images/list1.png) no-repeat;
+height:146px;
+width:146px;
+display:inline-block;
+margin:40px 10px 0px 10px;
+padding-top:95px;
+color:#8f523f;
+}
+#t2{
+background:url(../images/list2.png) no-repeat;
+height:146px;
+width:146px;
+display:inline-block;
+margin:40px 10px 0px 10px;
+padding-top:95px;
+color:#8f523f;
+}
+#t3{
+background:url(../images/list3.png) no-repeat;
+height:146px;
+width:146px;
+display:inline-block;
+margin:40px 10px 0px 10px;
+padding-top:95px;
+color:#8f523f;
+}
+#t4{
+background:url(../images/list4.png) no-repeat;
+height:146px;
+width:146px;
+display:inline-block;
+margin:40px 10px 0px 10px;
+padding-top:95px;
+color:#8f523f;
+}
+#t5{
+background:url(../images/list5.png) no-repeat;
+height:146px;
+width:146px;
+display:inline-block;
+margin:40px 10px 0px 10px;
+padding-top:95px;
+color:#8f523f;
+}
+
+
+.mai {
+    height:590px;
+    background-color:#ffffcc;
+    text-align:center;
+}
+.mai .xxxy {
+    margin:0 auto;
+    width:970px;
+    height:auto;
+    padding-top:10px;
+}
+.mai .xxxy .wup {
+    display:inline-block;
+    width:170px;
+    height:200px;
+    background-color:white;
+    margin:30px 20px 0px 20px;
+    border:1px solid #cccccc;
+    padding-top:10px;
+}
+.mai .xxxy .wup img {
+
+    width:158px;
+    height:120px;
+}
+.mai .xxxy .wup p {
+    text-align:left;
+    padding-left:15px;
+    font-size:14px;
+    line-height:22px;
+}
+.mai .xxxy .wup .w1 {
+    color:#8f523f;
+}
+.mai .xxxy .wup .w2 {
+    color:#fd8d99;
+}
+
+.foot{
+margin-top:-10px;
+width:1;
+height:120px;
+background:url(../images/footer.png) repeat-x;
+color: white;
+line-height:120px;
+text-align:center;
+}

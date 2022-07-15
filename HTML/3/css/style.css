@@ -1,0 +1,95 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+.header{
+width:980px;
+height:627px;
+background:url(../images/bg.jpg) no-repeat;
+margin:0 auto;
+padding-top:10px;
+}
+
+.header .nav{
+background:url(../images/nav.jpg) no-repeat;
+width:971px;
+height:86px;
+margin:0 auto;
+padding-top:40px;
+padding-left:180px;
+}
+
+.header .nav span{
+margin-right:30px;
+}
+#wm{
+margin-right:280px;
+}
+
+.dongtai{
+width:980px;
+height:450px;
+margin-top:30px;
+margin-left:294px;
+margin:0 auto;
+}
+
+.dongtai .new{
+margin-top:30px;
+height:500px;
+float:left;
+width:294px;
+margin-left:25px;
+}
+
+.new .hhh1{
+line-height:50px;
+height:50px;
+padding-left:10px;
+margin-left:10px;
+padding-top:3px;
+}
+
+.new .sx1{
+line-height:20px;
+padding-top:3px;
+color:#bbb;
+font-size:12px;
+height:80px;
+}
+
+.yangp{
+width:980px;
+height:292px;
+background:url(../images/xinshang.jpg) no-repeat;
+margin-left:285px;
+padding-top:170px;
+margin:0 auto;
+}
+
+.yangp .gasf{
+width:916px;
+margin:0 auto;
+}
+.yangp .gasf img{
+margin-left:59px;
+}
+
+
+.foot{
+width:1;
+height:80px;
+background:url(../images/footer_bg.jpg) repeat-x;
+margin:0 auto;
+color:#fff;
+text-align:center;
+font-size:14px;
+line-height:80px;
+}
+
+.tree{
+position:fixed;
+right:100px;
+bottom:50px;
+}

@@ -1,0 +1,146 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+	border:0;
+}
+
+body{
+    font-family: "微软雅黑"; 
+    font-size: 14px; 
+}
+
+a:link,a:visited{ 
+    text-decoration:none; 
+    color:#fff; 
+}
+
+#head{
+	width:100%; 
+	height:86px;
+	margin:0 auto; 
+	padding-top:10px;
+	background:url(../images/top.jpg) repeat-x;
+}
+
+#head .imge{
+	margin-left: 325px;
+}
+
+.daoh{
+	margin-left: 325px;
+	margin-top: -13px;
+	height:48px; 
+	background:url(../images/navbg.png) no-repeat;
+}
+
+.dog{
+	
+	margin-left: 1100px;
+	margin-top: -80px;
+}
+
+.shang{
+	width:980px; 
+	margin:0 auto;
+}
+.shang li{
+	float: left;
+}
+a{
+	display:inline-block; 
+	height:48px; 
+	padding:0 15px; 
+	line-height:48px; 
+	font-size: 18px;
+}
+
+a:hover{
+    background:url(../images/pic03.png) no-repeat;
+}
+
+.zhuce{
+	background:url(../images/pic03.png) no-repeat;
+}
+
+.banner{
+	width:980px; 
+	margin:0 auto;
+}
+
+.zhucej{
+	width:980px; 
+	height:934px; 
+	margin-left: 325px; 
+	background: #F5F5F5;
+}
+
+.content{
+	margin-left: 249px;
+	margin-top: 40px;
+	margin-bottom:40px;
+}
+
+h3{
+	width:980px; 
+	height:32px; 
+	font-size:15px; 
+	font-weight:100; 
+	color:white; 
+	display: block;
+	padding-left: 35px;
+	line-height:35px; 
+	background:url(../images/pic01.jpg) no-repeat; 
+}
+td{ 
+	height:50px; 
+	color:#B6DA46;
+}
+
+.left{
+	width:120px; 
+	text-align:right;
+}
+.right{
+	width:320px; 
+	height:28px; 
+	border:1px solid #B6DA46;
+}
+input{vertical-align:middle;}
+select{
+	width:171px; 
+	border:1px solid #B6DA46; 
+	color:#B6DA46;
+}
+textarea{
+	width:380px; 
+	border:1px solid #B6DA46; 
+	resize:none; 
+	font-size:12px; 
+	color:#aaa; 
+	padding:20px;
+}
+.btn{
+	width:408px; 
+	text-align: center;
+	height:76px; 
+	background:url(../images/pic02.png) center no-repeat;
+}
+
+.wc{
+	margin-top: -50px;
+	padding-left: 175px;
+	color:white;
+	font-size: 15px;
+}
+
+#foot{
+	width:100%; 
+	height:68px;
+	line-height:26px;
+	background:#CBCBCB; 
+	color:#fff; 
+	text-align:center;
+	padding-top:40px; 
+}
+

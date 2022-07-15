@@ -1,0 +1,257 @@
+*{
+    margin:0px; 
+    padding:0px;
+	border: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+	
+    background:white;  
+    font-size:16px; 
+}
+
+a:link,a:visited{ 
+    text-decoration:none; 
+    color:#ABABAB; 
+}
+
+li a:hover{
+    background:red;
+	color:white;
+}
+
+
+
+.header{
+	padding-top: 20px;
+    margin-left: 269px;
+    width:980px; 
+	height:80px;
+}
+
+.header .dlzc{
+    display: block;
+    float: right;
+	padding-top: 30px;
+	font-size: 13px;
+	margin: 0 auto;
+	padding-right:50px;
+}
+
+.header .nav{
+    width:980px; 
+}
+
+.header li{
+    float:left;
+}
+
+ 
+
+
+.datu .datu1{
+	height:600px;
+    width:980px;
+    margin-left: 269px;
+	margin-top: 10px;
+	background:url(../images/banner.jpg) no-repeat;
+	
+}
+
+.datu .daoh{
+	margin-top: 10px;
+	display:inline-block;
+	margin-left: 260px;
+	width:980px;
+}
+
+.daoh li a{
+	display:block; 
+	height:30px; 
+	width:119px; 
+	text-align:center; 
+	line-height:30px;
+	float:left;
+	font-size: 15px;
+}
+
+
+.datu .backg .zxc{
+	height:80px;
+	margin-left: 269px;
+}
+
+.datu .backg .zxc p{
+	color:#ABABAB
+}
+
+.datu .backg .zxc a:hover{
+
+	color:#ABABAB;
+}
+
+.datu .backg .zxc{
+	display:block;
+	float: left;
+	
+}
+
+.zxc dl{
+	text-align: center;
+	margin-left:0px;
+	padding-left: 10px;
+}
+
+.zxc dt{
+	width: 50px;
+	height: 50px;
+
+}
+
+.zxc dd{
+	width: 150px;
+	height: 50px;
+}
+
+.zxc .one,.zxc .two,.zxc .three,.zxc .four{
+	width: 224px;
+	height:75px;
+	float:right;
+	border: 1px solid #dbdbdb;
+}
+
+.zxc .one1,.zxc .two1,.zxc .three1,.zxc .four1{
+	width: 50px;
+	height:80px;
+}
+
+.zxc .four1{
+    background:url(../images/pic01.jpg) left no-repeat;
+}
+
+.zxc .three1{
+	background:url(../images/pic02.jpg) left no-repeat;
+}
+
+.zxc .two1{ 
+    background:url(../images/pic03.jpg) left no-repeat;
+}
+
+.zxc .one1{ 
+    background:url(../images/pic04.jpg) left no-repeat;
+}
+
+.zxc a{
+	display:block; 
+	text-align:center;
+	font-size: 15px;
+	padding-top: 18px;
+	color: black;
+	}
+
+.zxc p{
+	display:block; 
+	text-align:center;
+	font-size: 5px;
+	padding-top: 2px;
+}
+
+.zxc a:hover{ 
+    background:white;
+}
+
+.zxc dt,.zxc dd{
+    float:left;
+}
+
+.shejianli{
+	width:945px;
+	margin-top:100px;
+	margin-left: 269px;
+}
+
+
+.shejianli h2{
+	color: black;
+	height:35px; 
+    font-size:20px;
+    display:block;
+	font-weight: bold;    
+	border-bottom: 2px solid #cbcbcb;
+}
+
+
+.shejianli .photo {
+    height: 490px;
+}
+
+.shejianli .sphoto {
+    float: left;
+    margin: 12px 3px 0px 3px;
+}
+
+.dongtai{
+	width:945px;
+	margin-top:35px;
+	margin-left: 269px;
+}
+
+
+.dongtai h2{
+	color: black;
+	height:35px; 
+    font-size:20px;
+    display:block;
+	font-weight: bold;    
+	border-bottom: 2px solid #cbcbcb;
+}
+
+.dongtai {
+    height: 480px;
+}
+
+.dongtai dl dt {
+    float: left;
+    margin-top: 25px;
+}
+
+.dongtai dl dd {
+    border-bottom: 2px solid #cbcbcb;
+    height: 75px;
+    padding-top: 25px;
+}
+
+.dongtai dl dd .question {
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 65px;
+    height: 26px;
+}
+
+.dongtai dl dd .answer {
+    margin-left: 65px;
+    font-size: 15px;
+    height: 26px;
+}
+
+.dongtai .dongtai1 {
+    float: left;
+    margin: 14px 5px 0px 5px;
+    width: 270px;
+    border: 2px solid #cbcbcb;
+    padding: 15px;
+}
+
+.dongtai .dongtai1 .y {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.foot p {
+	color: #797979;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+}
