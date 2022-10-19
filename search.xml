@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>test</title>
+      <link href="/blog/test/"/>
+      <url>/blog/test/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>eraser网站</title>
       <link href="/blog/eraser%E7%BD%91%E7%AB%99/"/>
       <url>/blog/eraser%E7%BD%91%E7%AB%99/</url>
